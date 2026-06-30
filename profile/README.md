@@ -2,7 +2,7 @@
 
 # W4VE
 
-### *Code Ware 4 Vanilla Experience*
+### *Ware 4 Vanilla Experience*
 
 Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it works.
 
