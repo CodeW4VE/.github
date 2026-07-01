@@ -6,8 +6,8 @@
 
 Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it works.
 
-[![Website](https://img.shields.io/badge/web-w4ve.xyz-5865F2)](https://w4ve.xyz/)
-[![Community](https://img.shields.io/badge/server-MineWave-brightgreen?logo=minecraft)](https://w4ve.xyz/)
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/keyy8As)
+[![Live Map](https://img.shields.io/badge/MineWave-live%20map-brightgreen?logo=minecraft&logoColor=white)](https://mapmine.w4ve.xyz/)
 
 </div>
 
@@ -17,6 +17,7 @@ Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it wor
 
 | Project | What it is |
 | --- | --- |
+| **[RipDeepslate](https://github.com/CodeW4VE/RipDeepslate)** | Fabric mod (client + server): deepslate mines **exactly like stone** with a netherite pickaxe, instant with Efficiency V + Haste II. No ghost blocks, no crack animation. |
 | **[WaveMotes](https://github.com/CodeW4VE/WaveMotes)** | Fabric **client** mod: type `:emote:` in chat, pick from a `/`-style popup. Emotes baked into the jar (render client-side) + optional Discord emojis. |
 | **[WaveMotes-Server](https://github.com/CodeW4VE/WaveMotes-Server)** | The server side: resource-pack generator + Styled Chat injector so **everyone** (even vanilla) sees the emotes, bridged to Discord across servers. |
 | **[ChatBridge](https://github.com/CodeW4VE/ChatBridge)** | Discord &harr; Minecraft chat bridge (fork of [TIS ChatBridge](https://github.com/TISUnion/ChatBridge)); MC players show up as themselves in Discord. |
@@ -25,4 +26,4 @@ Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it wor
 
 *More on the way.*
 
-Built for and running on **[MineWave](https://w4ve.xyz/)**. Questions or want to dig in? Come to the [Discord](https://discord.gg/keyy8As).
+Built for and running on **MineWave**. Join in-game at `mine.w4ve.xyz`, explore the [live map](https://mapmine.w4ve.xyz/), or come hang out in the [Discord](https://discord.gg/keyy8As).
