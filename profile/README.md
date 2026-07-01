@@ -26,4 +26,4 @@ Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it wor
 
 *More on the way.*
 
-Built for and running on **MineWave**. Join in-game at `mine.w4ve.xyz`, explore the [live map](https://mapmine.w4ve.xyz/), or come hang out in the [Discord](https://discord.gg/keyy8As).
+Built for and running on **MineWave**, our private whitelisted server. Peek at the world on the [live map](https://mapmine.w4ve.xyz/), or come hang out in the [Discord](https://discord.gg/keyy8As).
