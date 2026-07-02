@@ -17,6 +17,7 @@ Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it wor
 
 | Project | What it is |
 | --- | --- |
+| **[ShapeBoard](https://github.com/CodeW4VE/ShapeBoard)** | Fabric **server** mod: scoreboards for areas of **any shape**, not just boxes. Outline the zone with blocks in the sky, every block broken/placed inside counts, and a per-player sidebar leaderboard appears when you walk in. |
 | **[RipDeepslate](https://github.com/CodeW4VE/RipDeepslate)** | Fabric mod (client + server): deepslate mines **exactly like stone** with a netherite pickaxe, instant with Efficiency V + Haste II. No ghost blocks, no crack animation. |
 | **[WaveMotes](https://github.com/CodeW4VE/WaveMotes)** | Fabric **client** mod: type `:emote:` in chat, pick from a `/`-style popup. Emotes baked into the jar (render client-side) + optional Discord emojis. |
 | **[WaveMotes-Server](https://github.com/CodeW4VE/WaveMotes-Server)** | The server side: resource-pack generator + Styled Chat injector so **everyone** (even vanilla) sees the emotes, bridged to Discord across servers. |
