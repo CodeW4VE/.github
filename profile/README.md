@@ -20,10 +20,11 @@ Tools for technical Minecraft servers that do not break vanilla.
 | Project | What it is | Latest |
 | --- | --- | --- |
 | **[BotInventory](https://github.com/CodeW4VE/BotInventory-Carpet)** | View and manage fake player inventories and ender chests by right-click or command, without stopping the farm. | `1.0.0` |
+| **[MankeDoMath](https://github.com/CodeW4VE/MankeDoMath)** | A calculator that **knows what a shulker is**. Farm rates, item counts and timings without leaving the game, with stacks, shulkers, ticks and chunks as real units: `5sh / 2h` works out to items per hour on its own. | `1.0.0` |
 | **[MankeList](https://github.com/CodeW4VE/MankeList)** | Material list for whatever you are building: `/ml`, a HUD overlay, and an optional Discord board that tracks what is still missing. | `1.0.0` |
 | **[MinimapSync](https://github.com/CodeW4VE/minimap-sync)**<br><sub>fork of [Earthcomputer/minimap-sync](https://github.com/Earthcomputer/minimap-sync)</sub> | Server-side waypoint sync for Xaero's Minimap, kept working on current Xaero releases instead of crashing them. | `1.2.3-w4ve.1` |
 | **[RegionCast](https://github.com/CodeW4VE/RegionCast)** | Pull **region files** from another server's world into this one, picked off a map where one tile is one region. Single chunks too, when a whole region is more than you wanted, and the last few updates stay undoable. | `1.0.1` |
-| **[RipDeepslate](https://github.com/CodeW4VE/RipDeepslate)** | Deepslate mines **exactly like stone** with a netherite pickaxe, instant with Efficiency V + Haste II. No ghost blocks, no crack animation. | `1.0.0+1.21` |
+| **[RipDeepslate](https://github.com/CodeW4VE/RipDeepslate)** | Deepslate mines **exactly like stone** with a netherite pickaxe, instant with Efficiency V + Haste II. No ghost blocks, no crack animation. | `1.0.0` |
 | **[ShapeBoard](https://github.com/CodeW4VE/ShapeBoard)** | Scoreboards for areas of **any shape**, not just boxes. Outline the zone with blocks in the sky, every block broken or placed inside counts, and a per-player sidebar leaderboard appears when you walk in. | `1.6.0` |
 | **[WorldEaterNotifier](https://github.com/CodeW4VE/WorldEaterNotifier)** | Watches world eaters and trenchers and pings **Discord** when one stops or gets obstructed, with per-event ping control so you only get the alerts you want. | `1.3.0` |
 
