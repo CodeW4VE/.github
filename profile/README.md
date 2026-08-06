@@ -55,7 +55,7 @@ Tools for technical Minecraft servers that do not break vanilla.
 | **[ChatBridge](https://github.com/CodeW4VE/ChatBridge)**<br><sub>fork of [TISUnion/ChatBridge](https://github.com/TISUnion/ChatBridge)</sub> | Discord and Minecraft chat bridge: MC players show up as themselves in Discord, with per-player mute and cross-server emotes. | `1.0` |
 | **[Discord To-Do Board](https://github.com/CodeW4VE/discord-todo-board)** | A live project board inside a Discord channel, all buttons, no web app. One board or many, optional HTTP webhook. | `1.0.0` |
 | **[Schem Converter](https://github.com/CodeW4VE/Schem-Converter)** | Converts `.litematic` files between NBT versions 4, 5, 6 and 7, so old schematics open in newer Litematica and the other way round. | `1.0.0` |
-| **[WaveMotes Server](https://github.com/CodeW4VE/WaveMotes-Server)** | The server side: resource-pack generator and chat injector so **everyone**, even vanilla clients, sees the emotes, bridged to Discord across servers. |  |
+| **[WaveMotes Server](https://github.com/CodeW4VE/WaveMotes-Server)** | The server side: resource-pack generator and chat injector so **everyone**, even vanilla clients, sees the emotes, bridged to Discord across servers. | `2.0.0` |
 
 ## In the works
 
