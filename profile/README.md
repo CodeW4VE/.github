@@ -4,7 +4,7 @@
 
 ### *Ware 4 Vanilla Experience*
 
-Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it works.
+Tools for technical Minecraft servers that do not break vanilla.
 
 [![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/keyy8As)
 [![Live Map](https://img.shields.io/badge/MineWave-live%20map-brightgreen?logo=minecraft&logoColor=white)](https://mapmine.w4ve.xyz/)
@@ -13,22 +13,69 @@ Mods, plugins and tooling for vanilla Minecraft. One jar, you install it, it wor
 
 ---
 
-## Projects
+## Server mods
 
-| Project | What it is |
-| --- | --- |
-| **[ShapeBoard](https://github.com/CodeW4VE/ShapeBoard)** | Fabric **server** mod: scoreboards for areas of **any shape**, not just boxes. Outline the zone with blocks in the sky, every block broken/placed inside counts, and a per-player sidebar leaderboard appears when you walk in. |
-| **[RegionCast](https://github.com/CodeW4VE/RegionCast)** | Fabric mod (client + server): pull **region files** from another server's world into this one, picked off a map where one tile is one region. Single chunks too, when a whole region is more than you wanted, and the last few updates stay undoable. |
-| **[RipDeepslate](https://github.com/CodeW4VE/RipDeepslate)** | Fabric mod (client + server): deepslate mines **exactly like stone** with a netherite pickaxe, instant with Efficiency V + Haste II. No ghost blocks, no crack animation. |
-| **[WorldEaterNotifier](https://github.com/CodeW4VE/WorldEaterNotifier)** | Fabric mod that watches world eaters and trenchers and pings **Discord** when one stops or gets obstructed, with per-event ping control so you only get the alerts you want. |
-| **[WaveMotes](https://github.com/CodeW4VE/WaveMotes)** | Fabric **client** mod: type `:emote:` in chat, pick from a `/`-style popup. Emotes baked into the jar (render client-side) + optional Discord emojis. |
-| **[WaveMotes-Server](https://github.com/CodeW4VE/WaveMotes-Server)** | The server side: resource-pack generator + Styled Chat injector so **everyone** (even vanilla) sees the emotes, bridged to Discord across servers. |
-| **[Manke](https://github.com/CodeW4VE/Manke)** | MineWave's own **Discord bot**: chat bridge, stats dashboards, roles, logs and more. Powered by monkeys, for monkeys. 🐒 |
-| **[ChatBridge](https://github.com/CodeW4VE/ChatBridge)** | Discord &harr; Minecraft chat bridge (fork of [TIS ChatBridge](https://github.com/TISUnion/ChatBridge)); MC players show up as themselves in Discord. |
-| **[Schem-Converter](https://github.com/CodeW4VE/Schem-Converter)** | Discord bot that converts `.litematic` files between NBT versions (4, 5, 6 and 7), so old schematics open in newer Litematica and vice versa. |
-| **[DigAll](https://github.com/CodeW4VE/DigAll)** | MCDR plugin: a real grand total of blocks mined for [DiggyScoreboard](https://github.com/Fallen-Breath/DiggyScoreboard), counting offline & historical players too. |
-| **[StatsHelper](https://github.com/CodeW4VE/StatsHelper)** | Fork of [TISUnion/StatsHelper](https://github.com/TISUnion/StatsHelper) with a UUID / rename de-duplication fix. |
+*Drop the jar in `mods/`. Players install nothing.*
 
-*More on the way.*
+| Project | What it is | Latest |
+| --- | --- | --- |
+| **[BotInventory](https://github.com/CodeW4VE/BotInventory-Carpet)** | View and manage fake player inventories and ender chests by right-click or command, without stopping the farm. | `1.0.0` |
+| **[MankeList](https://github.com/CodeW4VE/MankeList)** | Material list for whatever you are building: `/ml`, a HUD overlay, and an optional Discord board that tracks what is still missing. | `1.0.0` |
+| **[MinimapSync](https://github.com/CodeW4VE/minimap-sync)**<br><sub>fork of [Earthcomputer/minimap-sync](https://github.com/Earthcomputer/minimap-sync)</sub> | Server-side waypoint sync for Xaero's Minimap, kept working on current Xaero releases instead of crashing them. |  |
+| **[RegionCast](https://github.com/CodeW4VE/RegionCast)** | Pull **region files** from another server's world into this one, picked off a map where one tile is one region. Single chunks too, when a whole region is more than you wanted, and the last few updates stay undoable. | `1.0.1` |
+| **[RipDeepslate](https://github.com/CodeW4VE/RipDeepslate)** | Deepslate mines **exactly like stone** with a netherite pickaxe, instant with Efficiency V + Haste II. No ghost blocks, no crack animation. | `1.0.0+1.21` |
+| **[ShapeBoard](https://github.com/CodeW4VE/ShapeBoard)** | Scoreboards for areas of **any shape**, not just boxes. Outline the zone with blocks in the sky, every block broken or placed inside counts, and a per-player sidebar leaderboard appears when you walk in. | `1.6.0` |
+| **[WorldEaterNotifier](https://github.com/CodeW4VE/WorldEaterNotifier)** | Watches world eaters and trenchers and pings **Discord** when one stops or gets obstructed, with per-event ping control so you only get the alerts you want. | `1.3.0` |
 
-Built for and running on **MineWave**, our private whitelisted server. Peek at the world on the [live map](https://mapmine.w4ve.xyz/), or come hang out in the [Discord](https://discord.gg/keyy8As).
+## Client mods
+
+*For your own instance.*
+
+| Project | What it is | Latest |
+| --- | --- | --- |
+| **[Beaconator](https://github.com/CodeW4VE/Beaconator)** | Plan a beacon perimeter before you place a single beacon: ring grid from one point, real coverage volumes, and beams shooting up where a beacon is still missing. | `2.2.0` |
+| **[WaveMotes](https://github.com/CodeW4VE/WaveMotes)** | Type `:emote:` in chat, pick from a `/`-style popup. Emotes baked into the jar and rendered client-side, plus optional Discord emojis. | `2.0.1` |
+
+## MCDReforged plugins
+
+*Hot-reloadable, no restart.*
+
+| Project | What it is | Latest |
+| --- | --- | --- |
+| **[DigAll](https://github.com/CodeW4VE/DigAll)** | A real grand total of blocks mined for [DiggyScoreboard](https://github.com/Fallen-Breath/DiggyScoreboard), counting offline and historical players too, bots excluded. |  |
+| **[PrimeBackup](https://github.com/CodeW4VE/PrimeBackup)**<br><sub>fork of [TISUnion/PrimeBackup](https://github.com/TISUnion/PrimeBackup)</sub> | Deduplicated backups for MCDR. This fork brings back the clickable command buttons that 1.20.5+ clients silently ignore. |  |
+| **[StatsHelper](https://github.com/CodeW4VE/StatsHelper)**<br><sub>fork of [TISUnion/StatsHelper](https://github.com/TISUnion/StatsHelper)</sub> | Minecraft statistics for MCDR, with a UUID and rename de-duplication fix on top of upstream. |  |
+
+## Bots and services
+
+*Things that run next to the server.*
+
+| Project | What it is | Latest |
+| --- | --- | --- |
+| **[ChatBridge](https://github.com/CodeW4VE/ChatBridge)**<br><sub>fork of [TISUnion/ChatBridge](https://github.com/TISUnion/ChatBridge)</sub> | Discord and Minecraft chat bridge: MC players show up as themselves in Discord, with per-player mute and cross-server emotes. | `1.0` |
+| **[Discord To-Do Board](https://github.com/CodeW4VE/discord-todo-board)** | A live project board inside a Discord channel, all buttons, no web app. One board or many, optional HTTP webhook. |  |
+| **[Schem Converter](https://github.com/CodeW4VE/Schem-Converter)** | Converts `.litematic` files between NBT versions 4, 5, 6 and 7, so old schematics open in newer Litematica and the other way round. |  |
+| **[WaveMotes Server](https://github.com/CodeW4VE/WaveMotes-Server)** | The server side: resource-pack generator and chat injector so **everyone**, even vanilla clients, sees the emotes, bridged to Discord across servers. |  |
+
+## In the works
+
+Not released yet. Listed so you know where this is going.
+
+- **PyW4VE** - The Python runtime: wraps the server process, runs hot-reloadable plugins, and keeps MCDR plugins working.
+- **w4ve** - One command to install, update and check every piece of the ecosystem, on a server or on your own game instance.
+- **w4ve-core** - Shared Java library for W4VE mods: config with hot reload, commands, permissions, Discord boards, and the link to PyW4VE.
+
+## Profiles
+
+Curated sets, so you do not have to pick fifteen mods one by one. Installable in one command once the CLI lands.
+
+- **Technical survival server** (`technical-survival`, 12 pieces) - A vanilla-behaviour server for people who build farms and perimeters.
+- **Technical player client** (`technical-client`, 7 pieces) - What to put in your own instance to play on one of these servers.
+- **MineWave** (`minewave`, 19 pieces) - Exactly what runs on MineWave. Kept honest: if it is not here, it is not on the server.
+
+---
+
+Built for and running on **MineWave**, our private whitelisted server. 
+Peek at the world on the [live map](https://mapmine.w4ve.xyz/), or come hang out in the [Discord](https://discord.gg/keyy8As).
+
+<sub>One person maintains all of this. Issues get answered when they get answered.</sub>
