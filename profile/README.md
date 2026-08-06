@@ -21,7 +21,7 @@ Tools for technical Minecraft servers that do not break vanilla.
 | --- | --- | --- |
 | **[BotInventory](https://github.com/CodeW4VE/BotInventory-Carpet)** | View and manage fake player inventories and ender chests by right-click or command, without stopping the farm. | `1.0.0` |
 | **[MankeList](https://github.com/CodeW4VE/MankeList)** | Material list for whatever you are building: `/ml`, a HUD overlay, and an optional Discord board that tracks what is still missing. | `1.0.0` |
-| **[MinimapSync](https://github.com/CodeW4VE/minimap-sync)**<br><sub>fork of [Earthcomputer/minimap-sync](https://github.com/Earthcomputer/minimap-sync)</sub> | Server-side waypoint sync for Xaero's Minimap, kept working on current Xaero releases instead of crashing them. |  |
+| **[MinimapSync](https://github.com/CodeW4VE/minimap-sync)**<br><sub>fork of [Earthcomputer/minimap-sync](https://github.com/Earthcomputer/minimap-sync)</sub> | Server-side waypoint sync for Xaero's Minimap, kept working on current Xaero releases instead of crashing them. | `1.2.3-w4ve.1` |
 | **[RegionCast](https://github.com/CodeW4VE/RegionCast)** | Pull **region files** from another server's world into this one, picked off a map where one tile is one region. Single chunks too, when a whole region is more than you wanted, and the last few updates stay undoable. | `1.0.1` |
 | **[RipDeepslate](https://github.com/CodeW4VE/RipDeepslate)** | Deepslate mines **exactly like stone** with a netherite pickaxe, instant with Efficiency V + Haste II. No ghost blocks, no crack animation. | `1.0.0+1.21` |
 | **[ShapeBoard](https://github.com/CodeW4VE/ShapeBoard)** | Scoreboards for areas of **any shape**, not just boxes. Outline the zone with blocks in the sky, every block broken or placed inside counts, and a per-player sidebar leaderboard appears when you walk in. | `1.6.0` |
@@ -42,9 +42,9 @@ Tools for technical Minecraft servers that do not break vanilla.
 
 | Project | What it is | Latest |
 | --- | --- | --- |
-| **[DigAll](https://github.com/CodeW4VE/DigAll)** | A real grand total of blocks mined for [DiggyScoreboard](https://github.com/Fallen-Breath/DiggyScoreboard), counting offline and historical players too, bots excluded. |  |
-| **[PrimeBackup](https://github.com/CodeW4VE/PrimeBackup)**<br><sub>fork of [TISUnion/PrimeBackup](https://github.com/TISUnion/PrimeBackup)</sub> | Deduplicated backups for MCDR. This fork brings back the clickable command buttons that 1.20.5+ clients silently ignore. |  |
-| **[StatsHelper](https://github.com/CodeW4VE/StatsHelper)**<br><sub>fork of [TISUnion/StatsHelper](https://github.com/TISUnion/StatsHelper)</sub> | Minecraft statistics for MCDR, with a UUID and rename de-duplication fix on top of upstream. |  |
+| **[DigAll](https://github.com/CodeW4VE/DigAll)** | A real grand total of blocks mined for [DiggyScoreboard](https://github.com/Fallen-Breath/DiggyScoreboard), counting offline and historical players too, bots excluded. | `4.2.1` |
+| **[PrimeBackup](https://github.com/CodeW4VE/PrimeBackup)**<br><sub>fork of [TISUnion/PrimeBackup](https://github.com/TISUnion/PrimeBackup)</sub> | Deduplicated backups for MCDR. This fork brings back the clickable command buttons that 1.20.5+ clients silently ignore. | `1.13.1-w4ve.1` |
+| **[StatsHelper](https://github.com/CodeW4VE/StatsHelper)**<br><sub>fork of [TISUnion/StatsHelper](https://github.com/TISUnion/StatsHelper)</sub> | Minecraft statistics for MCDR, with a UUID and rename de-duplication fix on top of upstream. | `7.5.1-w4ve.1` |
 
 ## Bots and services
 
@@ -53,8 +53,8 @@ Tools for technical Minecraft servers that do not break vanilla.
 | Project | What it is | Latest |
 | --- | --- | --- |
 | **[ChatBridge](https://github.com/CodeW4VE/ChatBridge)**<br><sub>fork of [TISUnion/ChatBridge](https://github.com/TISUnion/ChatBridge)</sub> | Discord and Minecraft chat bridge: MC players show up as themselves in Discord, with per-player mute and cross-server emotes. | `1.0` |
-| **[Discord To-Do Board](https://github.com/CodeW4VE/discord-todo-board)** | A live project board inside a Discord channel, all buttons, no web app. One board or many, optional HTTP webhook. |  |
-| **[Schem Converter](https://github.com/CodeW4VE/Schem-Converter)** | Converts `.litematic` files between NBT versions 4, 5, 6 and 7, so old schematics open in newer Litematica and the other way round. |  |
+| **[Discord To-Do Board](https://github.com/CodeW4VE/discord-todo-board)** | A live project board inside a Discord channel, all buttons, no web app. One board or many, optional HTTP webhook. | `1.0.0` |
+| **[Schem Converter](https://github.com/CodeW4VE/Schem-Converter)** | Converts `.litematic` files between NBT versions 4, 5, 6 and 7, so old schematics open in newer Litematica and the other way round. | `1.0.0` |
 | **[WaveMotes Server](https://github.com/CodeW4VE/WaveMotes-Server)** | The server side: resource-pack generator and chat injector so **everyone**, even vanilla clients, sees the emotes, bridged to Discord across servers. |  |
 
 ## In the works
